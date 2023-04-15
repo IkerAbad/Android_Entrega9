@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Android_Entrega9</string>
+    <string name="song_list">Songs List</string>
+    <string name="add_song">Add Song</string>
+    <string name="insert_title">Insert Song Title</string>
+    <string name="insert_band">Insert Singer/Band</string>
+    <string name="insert_album">Insert Album Name</string>
+    <string name="insert_year">Insert Year</string>
+    <string name="submit">Submit</string>
+    <string name="fill_fields">Fill all fields</string>
+    <string name="clear_data">Clearing data...</string>
+    <string name="delete">Delete</string>
+</resources>

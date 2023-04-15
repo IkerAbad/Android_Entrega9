@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    app:startDestination="@id/songsListFragment">
+
+    <fragment
+        android:id="@+id/songsListFragment"
+        android:name="com.jesuitasrioja.android_entrega9.ui.SongsListFragment"
+        android:label="SongsListFragment" >
+        <action
+            android:id="@+id/action_songsListFragment_to_addSongFragment"
+            app:destination="@id/addSongFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addSongFragment"
+        android:name="com.jesuitasrioja.android_entrega9.ui.AddSongFragment"
+        android:label="AddSongFragment" >
+        <action
+            android:id="@+id/action_addSongFragment_to_songsListFragment"
+            app:destination="@id/songsListFragment" />
+    </fragment>
+</navigation>
