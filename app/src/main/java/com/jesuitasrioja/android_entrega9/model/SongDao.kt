@@ -24,7 +24,7 @@ interface SongDao {
     fun updateSong(song: Song)
 
     @Query("SELECT * FROM songs WHERE song_title = :title")
-    fun getSongByName(song: String): List<Song>
+    fun getSongByName(title: String): List<Song>
 
     @Query("SELECT * FROM songs WHERE year = :year")
     fun getUsersByAge(year: Int): List<Song>
